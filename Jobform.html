@@ -7,65 +7,59 @@
     <title>Job form</title>
 </head>
 <body bgcolor="#1affb6"> 
-    <tbody> 
+ <tbody> 
  <form> 
     <table align="center" cellspacing="20px">
         <tr> 
-        <th align="left"><label for="FullName">Full Name</label></th> 
-        <td><input type="text" id="FullName"/></td>
+        <th align="left" colspan="1"><label for="FullName">Full Name</label></th> 
+        <td><input type="text" id="FullName" size="80px" placeholder="Enter Full Name" ></td>
         </tr>
         <tr>
             <th align="left"><label for="JobTitle">Job Title</label></th>
-             <td><input type="text" id="JobTitle"/></td> 
+             <td><input type="text" id="JobTitle" size="80px" placeholder="Enter Job title"/></td> 
         </tr>
         <tr>
             <th align="left"><label for="Currentcompany:">Company Name</label></th>
-            <td><input type="text" id="Currentcompany:"></td>
+            <td><input type="text" id="Currentcompany:" size="80px" placeholder="Enter Current Company"></td>
         </tr>
           <tr>
             <th align="left"><label for="contactNumber">contact Number</label></th>
-            <td><input type="number" id="contact Number" min="2" max="2"></td>
-            <td> <input type="text" id="contactNumber"></td>
+            <td><input type="text" id="contact Number" min="2" max="2" size="2px" placeholder="+91"><input type="text" id="contactNumber" placeholder="Enter contact Number" size="72px"></td>
           </tr>
-     <tr>
-        <th align="left"><label for="Email">Email</label></th>
-        <td>  <input type="email" id="Email"></td>
-     </tr>
-     <tr>
-       <th align="left"> Work Status </th>
-        <th><input type="radio">Full Time</th>
-        <th> <input type="radio">Part Time</th>
-        <th><input type="radio">Per day</th>
-        <th><input type="radio"> others</th>
-       </tr> 
-          
+          <tr>
+           <th align="left"><label for="Email">Email</label></th>
+            <td>  <input type="email" id="Email" size="80px" placeholder="Email"></td>
+         </tr>
+         <tr>
+            <th align="left"><label for="Time">Work Status</label></th>
+            <th><input type="radio" id="Time">Full Time     <input type="radio" id="Time">Part Time <input type="radio"id="Time">Per day <input type="radio" id="Time"> others</th>
+         </tr> 
            <tr>
             <th align="left"> <label for="salary">salary</label></th>
-            <td><input type="text" id="salary">salary</td>
-            <td><input type="number" id="salary">salary</td>
-            <td><input type="date" id="salary">salary</td>
+            <td><input type="text" id="salary" placeholder="salary" size="24px"> <input type="text" id="Rupees" size="24px" placeholder="Rupees">
+                <input type="text" id="salary" size="20px" placeholder="yearly"></td>
+            
            </tr>            
                        
             <tr>
                 <th align="left"><label for="Expeience">Expeience</label></th>
-                <td><input type="number" id="Expeience"></td>
+                <td><input type="text" id="Expeience" size="80px" placeholder="Enter your Expeience in Months"></td>
             </tr>  
             <tr>
                 <th align="left"><label for="Current Location">Current Location</label></th>
-                <td><input type="google map" id="Current Location"></td>
+                <td><input type="google map" id="Current Location" size="80px" placeholder="Enter your Current Location"></td>
             </tr>  
             <tr>
                 <th align="left"><label for="Permanent Address">Permanent Address </label></th>
-                <td><input type="comment" id="Permanent Address"></td>
+                <td><textarea name="Enter" id="" cols="75px" rows="6px" placeholder="Enter your Permanent Address"></textarea></td>
             </tr>   
             <tr>
                 <th align="left"><label for="Upload Resume">Upload Resume</label></th>
                 <th><input type="file" id="Upload Resume"></th>
-            </tr>        
-               
+            </tr> 
                <tr>
-                <label for="Button">Button</label>
-                <th><input type="button">Button</th>
+                
+                <th><input type="submit"></th>
                 <td><input type="reset"></td>
                </tr> 
             <table> 
